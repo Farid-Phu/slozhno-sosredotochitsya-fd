@@ -16,6 +16,7 @@
   min-block-size: 668px;
   margin-bottom: 45px;
 }
+
 .decorated-zone::before {
   content: "";
   position: absolute;
@@ -60,27 +61,39 @@
 }
 
 .header__theme-menu-button {
-  border: none;
+  border: 1px solid transparent;
   background: transparent;
   text-transform: lowercase;
   color: var(--button_color);
-  font-family: IBM Plex Mono;
-font-weight: 400;
-font-size: 18px;
-line-height: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  inline-size: 70px;
+  block-size: 28px;
+}
+
+.header__theme-menu-button:hover {
+  border: 1px solid var(--button_color_hover);
+}
+
+.header__theme-menu-button:focus {
+  outline: none;
+}
+
+.header__theme-menu-button:focus-visible {
+  border-color: transparent;
+  border-bottom-color: currentColor;
 }
 
 .header__theme-menu-button_active {
   border: 1px solid var(--button_color);
-  inline-size: 70px;
-  block-size: 28px;
+  pointer-events: none;
 }
 
 .header__theme-menu {
   justify-self: end;
   align-self: end;
-   display: grid;
-
+  display: grid;
 }
 
 .header__theme-menu-list {
@@ -97,36 +110,35 @@ line-height: 18px;
 }
 
 .h2 {
-color: var(--h2_text_color);
-font-weight: 700;
-font-size: 18px;
-line-height: 23.4px;
+  color: var(--h2_text_color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
 }
 
 .h3 {
-    align-self: start;
+  align-self: start;
   align-items: start;
   color: var(--h3_text_color);
   background-color: var(--h3_bc);
-font-weight: 700;
-font-size: 18px;
-line-height: 23.4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.4px;
 }
 
 .h4 {
   color: var(--h4_text_color);
   background-color: var(--h4_bc);
   font-weight: 400;
-font-size: 18px;
-line-height: 23.4px;
-
+  font-size: 18px;
+  line-height: 23.4px;
 }
 
 .p {
-color: var(--p_text_color);
-font-weight: 400;
-font-size: 18px;
-line-height: 23.4px;
+  color: var(--p_text_color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23.4px;
 }
 .main {
   display: grid;
@@ -135,7 +147,7 @@ line-height: 23.4px;
 
 .content-section {
   display: grid;
- gap: 16px;
+  gap: 16px;
 }
 
 .gallery {
@@ -158,4 +170,17 @@ line-height: 23.4px;
   min-block-size: 667px;
   margin-top: 40px;
   text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.link {
+  text-shadow: 2px 2px 0 var(--link_shadow_color);
+  text-decoration: none;
+}
+
+.link:hover {
+  border-bottom: 1px solid currentColor;
+}
+
+.link:focus-visible {
+  outline: 1px solid currentColor;
 }
