@@ -15,27 +15,31 @@
   --link_shadow_color: rgba(255, 141, 203, 1);
   --button_color_hover: rgba(50, 49, 45, 0.4);
 
-.header_decor {
-  display: none;
-}}
+  .header_decor {
+    display: none;
+  }
+}
 
 @media (prefers-color-scheme: light) {
   :root {
-  --background-color: rgba(255, 241, 247, 1);
-  --background-image: url(../images/cover-image-light.png);
-  --h1_text_color: rgba(255, 194, 230, 1);
-  --h2_text_color: rgba(53, 52, 48, 1);
-  --h3_text_color: rgba(53, 52, 48, 1);
-  --h3_bc: rgba(255, 141, 203, 1);
-  --h4_text_color: rgba(53, 52, 48, 1);
-  --h4_bc: rgba(255, 141, 203, 1);
-  --p_text_color: rgba(53, 52, 48, 1);
-  --accent-color: rgba(255, 141, 203, 1);
-  --button_color: rgba(53, 52, 48, 1);
-  --footer_color: rgba(255, 194, 230, 1);
-  --decorated_zone_color: rgba(53, 52, 48, 1);
-  --link_shadow_color: rgba(255, 141, 203, 1);
-  --button_color_hover: rgba(50, 49, 45, 0.4);
-.header_decor {
-  display: none;
-}}}
+    --background-color: rgba(255, 241, 247, 1);
+    --background-image: url(../images/cover-image-light.png);
+    --h1_text_color: rgba(255, 194, 230, 1);
+    --h2_text_color: rgba(53, 52, 48, 1);
+    --h3_text_color: rgba(53, 52, 48, 1);
+    --h3_bc: rgba(255, 141, 203, 1);
+    --h4_text_color: rgba(53, 52, 48, 1);
+    --h4_bc: rgba(255, 141, 203, 1);
+    --p_text_color: rgba(53, 52, 48, 1);
+    --accent-color: rgba(255, 141, 203, 1);
+    --button_color: rgba(53, 52, 48, 1);
+    --footer_color: rgba(255, 194, 230, 1);
+    --decorated_zone_color: rgba(53, 52, 48, 1);
+    --link_shadow_color: rgba(255, 141, 203, 1);
+    --button_color_hover: rgba(50, 49, 45, 0.4);
+    
+    .header_decor {
+      display: none;
+    }
+  }
+}

@@ -190,6 +190,7 @@
   line-height: 83%;
   text-shadow: 2px 2px 0 var(--accent-color);
   min-block-size: 667px;
+  block-size: 100dvh;
 }
 
 .link {
@@ -451,6 +452,7 @@
   .footer {
     margin-top: 20px;
     min-block-size: 1024px;
+    block-size: 100dvh;
   }
 }
 
@@ -462,12 +464,9 @@
   }
 
   .header__theme-menu {
+    display: flex;
     grid-column-start: 1;
     grid-column-end: 3;
-  }
-
-  .header__theme-menu {
-    display: flex;
     justify-self: center;
     align-self: start;
   }
@@ -535,5 +534,6 @@
     padding-bottom: 250px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     min-block-size: 1024px;
+    block-size: 100dvh;
   }
 }

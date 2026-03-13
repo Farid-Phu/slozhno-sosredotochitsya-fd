@@ -14,7 +14,8 @@
   --decorated_zone_color: rgba(255, 0, 112, 1);
   --link_shadow_color: rgba(255, 0, 112, 1);
   --button_color_hover: rgba(255, 0, 112, 0.4);
-.header_decor {
-  display: block;
-}
+  
+  .header_decor {
+    display: block;
+  }
 }
