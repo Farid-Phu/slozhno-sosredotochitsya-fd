@@ -1,13 +1,13 @@
 :root.theme-light {
   --background-color: rgba(255, 241, 247, 1);
   --background-image: url(../images/cover-image-light.png);
-  --h1_text_color: rgba(255, 194, 230, 1);
-  --h2_text_color: rgba(53, 52, 48, 1);
-  --h3_text_color: rgba(53, 52, 48, 1);
-  --h3_bc: rgba(255, 141, 203, 1);
-  --h4_text_color: rgba(53, 52, 48, 1);
-  --h4_bc: rgba(255, 141, 203, 1);
-  --p_text_color: rgba(53, 52, 48, 1);
+  --color-heading-primary: rgba(255, 194, 230, 1);
+  --color-heading-secondary: rgba(53, 52, 48, 1);
+  --color-heading-tertiary: rgba(53, 52, 48, 1);
+  --bc-heading-tertiary: rgba(255, 141, 203, 1);
+  --color-heading-quaternary: rgba(53, 52, 48, 1);
+  --bc-heading-quaternary: rgba(255, 141, 203, 1);
+  --color-text-body: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --button_color: rgba(53, 52, 48, 1);
   --footer_color: rgba(255, 194, 230, 1);
@@ -24,13 +24,13 @@
   :root {
     --background-color: rgba(255, 241, 247, 1);
     --background-image: url(../images/cover-image-light.png);
-    --h1_text_color: rgba(255, 194, 230, 1);
-    --h2_text_color: rgba(53, 52, 48, 1);
-    --h3_text_color: rgba(53, 52, 48, 1);
-    --h3_bc: rgba(255, 141, 203, 1);
-    --h4_text_color: rgba(53, 52, 48, 1);
-    --h4_bc: rgba(255, 141, 203, 1);
-    --p_text_color: rgba(53, 52, 48, 1);
+    --color-heading-primary: rgba(255, 194, 230, 1);
+    --color-heading-secondary: rgba(53, 52, 48, 1);
+    --color-heading-tertiary: rgba(53, 52, 48, 1);
+    --bc-heading-tertiary: rgba(255, 141, 203, 1);
+    --color-heading-quaternary: rgba(53, 52, 48, 1);
+    --bc-heading-quaternary: rgba(255, 141, 203, 1);
+    --color-text-body: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
     --button_color: rgba(53, 52, 48, 1);
     --footer_color: rgba(255, 194, 230, 1);
