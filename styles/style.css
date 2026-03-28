@@ -243,6 +243,7 @@
   .heading-tertiary {
     grid-column-start: 2;
     grid-column-end: 3;
+    margin-bottom: 10px;
   }
 
   .header .heading-tertiary {
@@ -287,10 +288,6 @@
     display: block;
   }
 
-  .heading-tertiary {
-    margin-bottom: 10px;
-  }
-
   .what {
     margin-top: 30px;
   }
@@ -309,6 +306,7 @@
     grid-column-end: 4;
     margin-left: 6px;
   }
+
   .how__item:first-child .how_heading-tertiary {
     margin-bottom: 20px;
   }
