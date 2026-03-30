@@ -104,45 +104,45 @@
   gap: 10px;
 }
 
-.heading-primary {
+.heading {
   padding-top: 15px;
-  color: var(--color-heading-primary);
+  color: var(--color-heading);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
-.heading-secondary {
-  color: var(--color-heading-secondary);
+.section-heading {
+  color: var(--color-section-heading);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
 }
 
-.heading-tertiary {
+.description {
   align-self: center;
 
-  color: var(--color-heading-tertiary);
+  color: var(--color-description);
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
-  background-color: var(--bc-heading-tertiary);
+  background-color: var(--bc-description);
 }
 
-.header .heading-tertiary {
+.header .description {
   margin-bottom: 3px;
 }
 
-.gallery .heading-tertiary {
+.gallery .description {
   margin-bottom: 0;
 }
 
-.heading-quaternary {
-  color: var(--color-heading-quaternary);
+.card-heading {
+  color: var(--color-card-heading);
   font-weight: 400;
   font-size: 18px;
   line-height: 23.4px;
-  background-color: var(--bc-heading-quaternary);
+  background-color: var(--bc-card-heading);
 }
 
 .text-body {
@@ -164,10 +164,6 @@
   gap: 20px;
 }
 
-.how__item:first-child .how_heading-tertiary {
-  margin-bottom: 10px;
-}
-
 .cards {
   display: grid;
   gap: 20px;
@@ -175,6 +171,7 @@
 
 .card {
   display: grid;
+  align-content: start;
   gap: 10px;
 }
 
@@ -193,7 +190,7 @@
   display: grid;
   place-items: center;
   margin-top: 40px;
-  color: var(--footer_color);
+  color: var(--color-heading);
   font-weight: 700;
   font-size: 116px;
   line-height: 83%;
@@ -231,7 +228,7 @@
     margin-top: 20px;
   }
 
-  .heading-primary {
+  .heading {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -240,16 +237,20 @@
     padding-top: 0;
   }
 
-  .heading-tertiary {
+  .description_hero {
     grid-column-start: 2;
     grid-column-end: 3;
     margin-bottom: 10px;
   }
 
-  .header .heading-tertiary {
+  .header .description {
     margin-bottom: 20px;
   }
 
+  .gallery_adapt .description {
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
   .header_decor {
     top: 20px;
     right: 30px;
@@ -284,9 +285,6 @@
     grid-column-start: 2;
     grid-column-end: 4;
   }
-  .card {
-    display: block;
-  }
 
   .what {
     margin-top: 30px;
@@ -307,12 +305,8 @@
     margin-left: 6px;
   }
 
-  .how__item:first-child .how_heading-tertiary {
+  .how__item:first-child .description {
     margin-bottom: 20px;
-  }
-
-  .heading-quaternary {
-    margin-bottom: 10px;
   }
 
   .gallery_adapt {
@@ -337,35 +331,35 @@
     block-size: 100%;
   }
 
-  .adapt_first_picture {
+  .gallery__image_sunset {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
   }
 
-  .adapt_sekond_picture {
+  .gallery__image_ice-cream {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 4;
   }
 
-  .adapt_fhird_picture {
+  .gallery__image_tape {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 5;
   }
 
-  .adapt_fourf_picture {
+  .gallery__image_books {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
   }
 
-  .adapt_fifth_picture {
+  .gallery__image_street {
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 4;
@@ -398,7 +392,7 @@
     align-self: start;
   }
 
-  .heading-primary {
+  .heading {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 

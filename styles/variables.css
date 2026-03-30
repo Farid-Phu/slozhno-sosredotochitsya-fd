@@ -1,16 +1,15 @@
 :root {
   --background-color: rgba(0, 0, 40, 1);
   --background-image: url(../images/cover-image-dark.png);
-  --color-heading-primary: rgba(219, 0, 255, 1);
-  --color-heading-secondary: rgba(255, 0, 112, 1);
-  --color-heading-tertiary: rgba(0, 0, 40, 1);
-  --bc-heading-tertiary: rgba(255, 0, 112, 1);
-  --color-heading-quaternary: rgba(0, 0, 40, 1);
-  --bc-heading-quaternary: rgba(255, 0, 112, 1);
+  --color-heading: rgba(219, 0, 255, 1);
+  --color-section-heading: rgba(255, 0, 112, 1);
+  --color-description: rgba(0, 0, 40, 1);
+  --bc-description: rgba(255, 0, 112, 1);
+  --color-card-heading: rgba(0, 0, 40, 1);
+  --bc-card-heading: rgba(255, 0, 112, 1);
   --color-text-body: rgba(241, 178, 206, 1);
   --accent-color: rgba(255, 0, 112, 1);
   --button_color: rgba(255, 0, 112, 1);
-  --footer_color: rgba(219, 0, 255, 1);
   --decorated_zone_color: rgba(255, 0, 112, 1);
   --link_shadow_color: rgba(255, 0, 112, 1);
   --button_color_hover: rgba(255, 0, 112, 0.4);

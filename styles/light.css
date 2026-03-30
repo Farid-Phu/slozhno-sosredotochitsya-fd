@@ -1,16 +1,15 @@
 :root.theme-light {
   --background-color: rgba(255, 241, 247, 1);
   --background-image: url(../images/cover-image-light.png);
-  --color-heading-primary: rgba(255, 194, 230, 1);
-  --color-heading-secondary: rgba(53, 52, 48, 1);
-  --color-heading-tertiary: rgba(53, 52, 48, 1);
-  --bc-heading-tertiary: rgba(255, 141, 203, 1);
-  --color-heading-quaternary: rgba(53, 52, 48, 1);
-  --bc-heading-quaternary: rgba(255, 141, 203, 1);
+  --color-heading: rgba(255, 194, 230, 1);
+  --color-section-heading: rgba(53, 52, 48, 1);
+  --color-description: rgba(53, 52, 48, 1);
+  --bc-description: rgba(255, 141, 203, 1);
+  --color-card-heading: rgba(53, 52, 48, 1);
+  --bc-card-heading: rgba(255, 141, 203, 1);
   --color-text-body: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --button_color: rgba(53, 52, 48, 1);
-  --footer_color: rgba(255, 194, 230, 1);
   --decorated_zone_color: rgba(53, 52, 48, 1);
   --link_shadow_color: rgba(255, 141, 203, 1);
   --button_color_hover: rgba(50, 49, 45, 0.4);
@@ -24,16 +23,15 @@
   :root {
     --background-color: rgba(255, 241, 247, 1);
     --background-image: url(../images/cover-image-light.png);
-    --color-heading-primary: rgba(255, 194, 230, 1);
-    --color-heading-secondary: rgba(53, 52, 48, 1);
-    --color-heading-tertiary: rgba(53, 52, 48, 1);
-    --bc-heading-tertiary: rgba(255, 141, 203, 1);
-    --color-heading-quaternary: rgba(53, 52, 48, 1);
-    --bc-heading-quaternary: rgba(255, 141, 203, 1);
+    --color-heading: rgba(255, 194, 230, 1);
+    --color-section-heading: rgba(53, 52, 48, 1);
+    --color-description: rgba(53, 52, 48, 1);
+    --bc-description: rgba(255, 141, 203, 1);
+    --color-card-heading: rgba(53, 52, 48, 1);
+    --bc-card-heading: rgba(255, 141, 203, 1);
     --color-text-body: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
     --button_color: rgba(53, 52, 48, 1);
-    --footer_color: rgba(255, 194, 230, 1);
     --decorated_zone_color: rgba(53, 52, 48, 1);
     --link_shadow_color: rgba(255, 141, 203, 1);
     --button_color_hover: rgba(50, 49, 45, 0.4);
