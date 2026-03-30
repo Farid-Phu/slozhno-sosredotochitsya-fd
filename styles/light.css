@@ -9,10 +9,10 @@
   --bc-card-heading: rgba(255, 141, 203, 1);
   --color-text-body: rgba(53, 52, 48, 1);
   --accent-color: rgba(255, 141, 203, 1);
-  --button_color: rgba(53, 52, 48, 1);
-  --decorated_zone_color: rgba(53, 52, 48, 1);
-  --link_shadow_color: rgba(255, 141, 203, 1);
-  --button_color_hover: rgba(50, 49, 45, 0.4);
+  --button-color: rgba(53, 52, 48, 1);
+  --decorated-zone-color: rgba(53, 52, 48, 1);
+  --link-shadow-color: rgba(255, 141, 203, 1);
+  --button-color-hover: rgba(50, 49, 45, 0.4);
 
   .header_decor {
     display: none;
@@ -31,10 +31,10 @@
     --bc-card-heading: rgba(255, 141, 203, 1);
     --color-text-body: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
-    --button_color: rgba(53, 52, 48, 1);
-    --decorated_zone_color: rgba(53, 52, 48, 1);
-    --link_shadow_color: rgba(255, 141, 203, 1);
-    --button_color_hover: rgba(50, 49, 45, 0.4);
+    --button-color: rgba(53, 52, 48, 1);
+    --decorated-zone-color: rgba(53, 52, 48, 1);
+    --link-shadow-color: rgba(255, 141, 203, 1);
+    --button-color-hover: rgba(50, 49, 45, 0.4);
     
     .header_decor {
       display: none;
